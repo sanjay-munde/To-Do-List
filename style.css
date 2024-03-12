@@ -29,7 +29,7 @@ html {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url("C:\Users\Sanja\Downloads\plain-smooth-green-wall-texture.jpg");
+		background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url("plain-smooth-green-wall-texture.jpg");
 	}
 }
 
