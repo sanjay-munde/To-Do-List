@@ -1,4 +1,4 @@
-# Todo List Web App
+# Todo List
 
 ## Overview
 This is a simple web application for managing a todo list. Users can add, edit, and mark tasks as completed. The application features a visually appealing design with dynamic effects on list items.
