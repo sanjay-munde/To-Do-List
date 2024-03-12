@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .done {
+      text-decoration: line-through;
+    }
+    .big {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Todo List</h1>
+  <ul>
+    <li class="big">Groceries
+      <ul>
+        <li class="done">3 Tomatoes</li>
+        <li>1 bunch of cherries</li>
+        <li>6 onions</li>
+        <li class="done">3 heads of garlic</li>
+        <li>1 bag spring mix</li>
+      </ul>
+    </li>
+    <li class="done">Cancel gym membership</li>
+    <li>Clean gutters</li>
+    <li class="done">Take package to the post office</li>
+    <li class="done">Call Avery about Ali's party (afternoon)</li>
+    <li>Sort recycling & put out trash</li>
+  </ul>
+  <button id="editButton" class="edit-icon"><i class="fas fa-edit"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
